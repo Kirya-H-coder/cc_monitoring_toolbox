@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=CC Monitoring Toolbox
+qgisMinimumVersion=3.0
+description=This plugin facilitates the implementation of the Cool Cities monitoring strategy for urban cooling projects.
+version=0.1
+author=Kirya Heinemann, HafenCity University
+email=kirya.heinemann@hcu-hamburg.de
+
+about=The CC Monitoring Toolbox provides a simple GIS framework for climate-resilient urban monitoring and planning, developed as part of the EU-funded Interreg North Sea Project. It is aimed at decision-makers across the North Sea region. The cooling module addresses thermal comfort through the analysis of physiologically equivalent temperature (PET) to identify heat-stress hotspots, high-resolution shadow mapping, and the evaluation of surface material properties. For urban greening, the toolbox measures the quantity and quality of vegetation. The water management component focuses on infiltration potential, providing essential data to support the transition toward blue-green infrastructure concepts and mitigate local flood risks. By integrating these features into a single modular platform, the CC Monitoring Toolbox helps planners effectively assess the success of their cooling projects.
+
+tracker=https://www.interregnorthsea.eu/cool-cities
+repository=https://github.com/Kirya-H-coder/cc_monitoring_toolbox
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=cooling, shading, interreg, monitoring, heat
+
+homepage=https://www.interregnorthsea.eu/cool-cities
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
